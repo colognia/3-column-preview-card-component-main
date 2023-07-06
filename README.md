@@ -19,7 +19,7 @@ My 5th challenge for front end developers.
 
 ### Screenshot
 
-![](./screenshot_desktop.png) and ![](./screenshot_mobile.png)
+![](./screenshots/screenshot_desktop.png) and ![](./screenshots/screenshot_mobile.png)
 
 ### Links
 
