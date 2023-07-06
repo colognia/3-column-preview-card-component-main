@@ -1,5 +1,5 @@
 # Frontend Mentor - 3-column preview card component
-This is a solution to the [Design preview for the 3-column preview card component coding challenge](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-/hub). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Design preview for the 3-column preview card component coding challenge](https://www.frontendmentor.io/challenges/3column-preview-card-component-pH92eAR2-). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
 ## Table of contents
 
@@ -41,16 +41,16 @@ My 5th challenge for front end developers.
 - editor: visual studio code
 
 ### What I learned
-More about positioning items inside flex. Used clamp first time to make font-size responsive with vw. Discovered the command "white-space" to avoid line break in an expression.
+More about positioning items inside flex. Used clamp first time to make font-size responsive with vw. Discovered the command "white-space" to avoid line break in an expression. Moreover learned that transparent is a color which can be used like all other colors.
 
 ### Continued development
 Using clamp more frequntly, paying more attention to responsiveness.
-
 
 ### Useful resources
 
 developers.mozilla.org
 w3schools
+Kevin Powells videos on youtube for css
 
 ## Author
 
