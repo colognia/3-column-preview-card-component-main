@@ -1,0 +1,169 @@
+/*
+- Mobile: 375px
+- Desktop: 1440px
+*/
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --fontcontent: 'Lexend Deca', sans-serif;
+    --fontheading: 'Big Shoulders Display', cursive;
+    --orange: hsl(31, 77%, 52%);
+    --petrol: hsl(184, 100%, 22%);
+    --darkpetrol: hsl(179, 100%, 13%);
+    --palewhite: hsla(0, 0%, 100%, 0.75);
+    --lightgrey: hsl(0, 0%, 95%);
+}
+
+body {
+    min-height: 100vh;
+}
+
+section {
+    /*to keep card seperated from footer, footer shall not be flex as well*/
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+p {
+    font-size: clamp(10px, 2vw, 15px);
+}
+
+/*card----------------*/
+.cardcontainer {
+    display: flex;
+    width: 80%;
+    max-width: 800px;
+}
+
+div.cardcontainer>div {
+    padding: 5%;
+    /*div itself dont need to be flex, just block*/
+}
+
+.cardcontainer img {
+    margin-bottom: .8em;
+}
+
+.firstdiv {
+    background-color: var(--orange);
+    border-radius: 6px 0 0 6px;
+}
+
+.seconddiv {
+    background-color: var(--petrol);
+}
+
+.thirddiv {
+    background-color: var(--darkpetrol);
+    border-radius: 0 6px 6px 0;
+}
+
+h2 {
+    font-family: var(--fontheading);
+    color: var(--lightgrey);
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 1em;
+}
+
+p {
+    color: var(--palewhite);
+    font-family: var(--fontcontent);
+    font-weight: 400;
+    line-height: 1.5em;
+    min-height: 50%;
+    margin-bottom: 2em;
+}
+
+button {
+    font-size: clamp(10px, 2vw, 15px);
+    white-space: nowrap;
+    letter-spacing: 1px;
+    background-color: var(--lightgrey);
+    border: 2px solid var(--lightgrey);
+    border-radius: 50px;
+    padding: 0.8em 1.8em;
+    margin-bottom: 3em;
+}
+
+.firstdiv button {
+    color: var(--orange);
+}
+
+.seconddiv button {
+    color: var(--petrol);
+}
+
+.thirddiv button {
+    color: var(--darkpetrol);
+}
+
+button:hover {
+    background-color: transparent;
+    color: var(--lightgrey);
+}
+
+/* footer ----------------------------*/
+footer {
+    width: 100%;
+    padding: 10px;
+}
+
+#footerdiv {
+    text-align: left;
+    font-size: 0.6em;
+}
+
+div#footerdiv p {
+    color: var(--darkpetrol);
+    font-size: clamp(10px, 2vw, 15px);
+    display: inline-block;
+
+    margin: 0;
+}
+
+/* media ----------------------------*/
+@media (max-width: 375px) {
+    .cardcontainer {
+        display: block;
+        /*block or flex does not matter*/
+        /*flex-direction: column;*/
+        margin: 3rem auto;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    div.cardcontainer>div {
+        padding: 13%;
+    }
+
+    .firstdiv {
+        border-radius: 6px 6px 0 0;
+    }
+
+    .thirddiv {
+        border-radius: 0 0 6px 6px;
+    }
+
+    button {
+        margin-bottom: 1em;
+        font-size: 15px;
+    }
+
+}
