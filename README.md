@@ -23,8 +23,8 @@ My 5th challenge for front end developers.
 
 ### Links
 
-- Solution URL: [https://github.com/colognia/product-preview-card-component-main.git]
-- Live Site URL: [https://https://colognia.github.io/product-preview-card-component-main/]
+- Solution URL: [https://github.com/colognia/3-column-preview-card-component-main.git]
+- Live Site URL: [https://colognia.github.io/3-column-preview-card-component-main/]
 
 ## My process
 
@@ -41,11 +41,10 @@ My 5th challenge for front end developers.
 - editor: visual studio code
 
 ### What I learned
-More about grids and positioning items inside. To exchange pictures thru display: none/unset; was my way to exchange pictures for different screen sizes.
+More about positioning items inside flex. Used clamp first time to make font-size responsive with vw. Discovered the command "white-space" to avoid line break in an expression.
 
 ### Continued development
-Learn more about grids and media queries.
-I am unsure about sizing of maincontainer, because we do not have values. Relative units do not work, because screen width changes and you want some respnsove margin.
+Using clamp more frequntly, paying more attention to responsiveness.
 
 
 ### Useful resources
